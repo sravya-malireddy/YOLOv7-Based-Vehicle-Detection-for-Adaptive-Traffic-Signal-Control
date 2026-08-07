@@ -1,14 +1,3 @@
-"""
-Main entry point for the AI-Based Smart Traffic Management System.
-
-Workflow:
-1. Load traffic images.
-2. Detect vehicles using YOLOv7.
-3. Count detected vehicles.
-4. Save annotated output images.
-5. Launch the adaptive traffic signal simulation.
-"""
-
 from config import (
     CLASS_NAMES,
     IMAGE_DIR,
@@ -32,14 +21,7 @@ from simulation import TrafficSimulation
 
 
 def process_images() -> dict[str, int]:
-    """
-    Detect vehicles from all traffic images.
-
-    Returns:
-        Dictionary containing the total number of detected
-        cars, buses and trucks.
-    """
-
+ 
     detector = VehicleDetector(
         MODEL_CONFIG,
         MODEL_WEIGHTS,
@@ -93,9 +75,6 @@ def process_images() -> dict[str, int]:
 
 
 def main() -> None:
-    """
-    Execute the complete traffic management pipeline.
-    """
 
     try:
         vehicle_counts = process_images()
