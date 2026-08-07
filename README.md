@@ -114,17 +114,12 @@ Smart-Traffic-Management/
 
 │
 
-├── source/
-
-│ ├── main.py
-
-│ ├── detector.py
-
-│ ├── signal_controller.py
-
-│ ├── simulation.py
-
-│ └── utils.py
+source/
+├── vehicle_detection.py
+├── image_processor.py
+├── simulation.py
+├── config.py
+└── main.py
 
 │
 
