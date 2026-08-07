@@ -184,11 +184,12 @@ Finally, the complete traffic intersection is simulated using Pygame to visualiz
 
 ### Vehicle Detection
 
-> *(Insert image from `images/Vehicle_Detection.png`)*
+<img width="339" height="375" alt="output_1" src="https://github.com/user-attachments/assets/76dcb61d-a689-4aa4-9e3d-7f68483b5584" />
+
 
 ### Traffic Simulation
 
-> *(Insert image from `images/Simulation.png`)*
+<img width="718" height="406" alt="image" src="https://github.com/user-attachments/assets/09d2658f-d2f1-4989-9725-e20610a87029" />
 
 ---
 
