@@ -88,48 +88,51 @@ Traffic Simulation
 ## Repository Structure
 
 ```
-Smart-Traffic-Management/
-
+Smart-Traffic-Management
 │
-
-├── docs/
-
-│ ├── Research_Paper.pdf
-
-│ ├── Architecture.png
-
-│ └── Workflow.png
-
+├── README.md
+├── LICENSE
+├── requirements.txt
 │
-
-├── images/
-
-│ ├── Vehicle_Detection.png
-
-│ ├── Simulation.png
-
-│ ├── GUI.png
-
-│ └── Results.png
-
+├── src
+│   ├── config.py
+│   ├── image_processor.py
+│   ├── vehicle_detection.py
+│   ├── simulation.py
+│   └── main.py
 │
-
-source/
-├── vehicle_detection.py
-├── image_processor.py
-├── simulation.py
-├── config.py
-└── main.py
-
+├── docs
+│   ├── Research_Paper.pdf
+│   ├── Architecture.png
+│   └── Workflow.png
 │
-
-├── videos/
-
-│ └── Demo.mp4
-
+├── images
+│   ├── Vehicle_Detection.png
+│   ├── Simulation.png
+│   ├── GUI.png
+│   └── Results.png
 │
-
-└── README.md
+├── dataset
+│   └── test_images
+│       ├── 1.jpg
+│       ├── 2.jpg
+│       ├── 3.jpg
+│       └── 4.jpg
+│
+├── output
+│   └── detected_images
+│       ├── detected_1.jpg
+│       ├── detected_2.jpg
+│       ├── detected_3.jpg
+│       └── detected_4.jpg
+│
+├── models
+│   ├── coco.names
+│   ├── yolov7.cfg
+│   └── README.md
+│
+└── videos
+    └── Demo.mp4
 ```
 
 ---
