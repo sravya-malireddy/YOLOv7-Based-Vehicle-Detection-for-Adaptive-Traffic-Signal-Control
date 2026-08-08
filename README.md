@@ -214,8 +214,6 @@ This work has been prepared as a research manuscript titled:
 
 **YOLOv7-Based Vehicle Detection for Adaptive Traffic Signal Control**
 
-<img width="1600" height="881" alt="image" src="https://github.com/user-attachments/assets/17e3f2ba-6903-4d2c-b66d-fc1b5698f0f7" />
-
 ---
 
 ## Author
